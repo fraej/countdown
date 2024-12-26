@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cuenta atrás</h1>
+
+        <div class="date-picker">
+            <label for="target-date">Me jubilo el</label>
+            <input type="date" id="target-date">
+            <p id="formatted-date"></p>
+        </div>
+
+        <div id="countdown">
+            <div class="time-unit">
+                <span id="years">0</span>
+                <p>Años</p>
+            </div>
+            <div class="time-unit">
+                <span id="days">0</span>
+                <p>Días</p>
+            </div>
+            <div class="time-unit">
+                <span id="hours">0</span>
+                <p>Horas</p>
+            </div>
+            <div class="time-unit">
+                <span id="minutes">0</span>
+                <p>Minutos</p>
+            </div>
+            <div class="time-unit">
+                <span id="seconds">0</span>
+                <p>Segundos</p>
+            </div>
+        </div>
+        <div id="remadores">
+            <p>Mientras tanto...</p>
+            <div id="image-container"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
